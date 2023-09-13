@@ -1,0 +1,63 @@
+.education{
+    padding: 3.25rem;
+    margin-top: 3rem ;
+    margin-left: 12rem;
+     background-color: #9E9E9E;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.education hr{
+    color: #84817a;
+    width: 25rem;
+    margin: 1rem auto;
+} 
+
+.education h1 {
+    font-weight: bold;
+    color: #2c2c54;
+} 
+
+
+
+.education .vertical-timeline-element-title{
+color: black;
+}
+
+.education .vertical-timeline-element-subtitle
+ {
+color: rgb(2, 2, 47);
+}
+
+/*  DARK MODE */
+
+#dark .education {
+    background-color:#37474F;
+    color: white;
+}
+
+#dark .education h1{
+    color: white;
+}
+
+#dark .education hr{
+color: white;
+}
+
+/* Mobile View */
+@media (max-width: 600px){
+    .education{
+        margin: 0;
+        padding: 0;
+        margin-top: 2rem;
+    }
+
+.education h1{
+    padding-top: 1.25rem;
+}
+
+.education hr{
+    width: 17.5rem;
+    margin-bottom: 0.7rem;
+}
+
+}

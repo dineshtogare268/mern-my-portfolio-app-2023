@@ -1,0 +1,86 @@
+.home-container{
+    height: 18.75rem;
+    color: white;
+    margin-left: 9.375rem;
+    padding-left: 9.375rem;
+}
+
+.home-content h2 {
+    padding: 0.2rem;
+    padding-top: 4.375rem;
+    margin-top: 4.375rem;
+    /* padding-left: 6.25rem; */
+}
+
+.home-content h1 {
+color: #d35400;
+padding: 0.2rem;
+/* margin-left: 6.25rem; */
+}
+
+.home-button{
+   margin-top: 1.25rem;
+}
+
+.home-button .btn-hire{
+background-color: #01579B;
+color: white;
+margin-top: 1rem;
+width: 8.5rem;
+font-weight: 600;
+box-shadow: #34e7e4 0px 0px 0px 1px;
+}
+
+.home-button .btn-hire:hover{
+background-color: #29B6F6;
+color:  white;
+width: 12rem;
+transition: 1s;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.home-button .btn-cv{
+    background-color: #5ff4e2;
+    color: #0c2461;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    width: 8.5rem;
+    font-weight: 600;
+    box-shadow: #212121 0px 0px 0px 2px;
+}
+
+.home-button .btn-cv:hover{
+    opacity: 80%;
+    transition: 1s;
+    background-color: #7bed9f;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: black;
+    margin-top: 1.3rem;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border-top-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    z-index: 1;
+}
+
+/* Mobile View */
+
+@media  (max-width:600px){
+    .home-container{
+        padding: 0;
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .home-content h2 {
+        font-size: 1.6rem;
+    }
+}

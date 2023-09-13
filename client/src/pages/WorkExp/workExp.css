@@ -1,0 +1,60 @@
+
+
+.work{
+    padding: 3.25rem;
+    margin-top: 2rem ;
+    margin-left: 12rem;
+    background-color: #78909C;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.work-exp hr{
+    color: #035e63;
+    width: 25rem;
+    margin: 1rem auto;
+}
+
+.work-exp h1{
+    font-weight: bold;
+    color: #2c2c54;
+}
+
+.work-exp .vertical-timeline-element-title{
+color: black;
+}
+
+.work-exp  .vertical-timeline-element-subtitle{
+    color: #3b505a;
+}
+
+.vertical-timeline-element--work{
+
+}
+
+/* Dark mode */
+#dark .work{
+    background-color: #455A64;
+}
+
+#dark .work-exp h1{
+    
+    color: white;
+}
+
+#dark .work-exp hr{
+    color: white;
+}
+
+/* Mobile View */
+
+@media (max-width:600px){
+    .work{
+        margin: 0;
+        padding: 1.25rem;
+        margin-top: 3rem;
+    }
+
+    .work hr{
+        width: 17.5rem;
+    }
+}

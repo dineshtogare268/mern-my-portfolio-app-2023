@@ -1,0 +1,142 @@
+.project{
+    padding: 3.25rem;
+    margin-top: 2rem ;
+    margin-left: 12rem;
+    background-color: #f1f2f6;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.project hr{
+    color: #035e63;
+    width: 25rem;
+    margin: 1rem auto;
+} 
+
+.project h1 {
+    font-weight: bold;
+    color: #2c2c54;
+} 
+
+
+#ads{
+margin: 2rem 0 2rem 0;
+
+}
+
+#ads .card-notify-badge{
+    position: absolute;
+    left: -0.7rem;
+    top: -1.3rem;
+    background: rgb(243, 175, 133);
+    text-align: center;
+    border-radius: 2rem ;
+    color: black;
+    padding: 0.5rem 0.7rem;
+    font-size: 1rem;
+}
+
+.project .card img{
+    height: 15rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.card-details-badge {
+background-color: #4DB6AC;
+text-align: center;
+border-radius: 2rem;
+padding: 0.4rem 0.6rem;
+color: black;
+}
+
+.card-image-overly span{
+    display: inline-block;
+    margin-left: 0.3rem;
+    color: black;
+}
+
+.project .card{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 1px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: #FFFDE7;
+
+}
+
+.project .card:hover{
+    background-color: #F9FBE7;
+    border-radius: 0.3rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: all 0.5s ease;
+}
+
+.ad-btn {
+    text-transform: uppercase;
+    width: 9.375rem;
+    height: 2.3rem;
+    display: block;
+    text-align: center;
+    background-color: #01579B;
+    border-radius: 5rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-decoration: none;
+    margin: 1.2rem auto 1.2rem auto;
+   overflow: hidden;
+    position: relative;
+}
+
+.ad-btn:hover {
+    color: black;
+    background: transparent;
+    border: 2px solid #004D40;
+    transition: all 0.5s ease;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 1px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: all 0.5s ease;
+}
+
+/*  DARK MODE */
+
+/* Mobile View */
+
+#dark .project{
+    background-color: #37474F;
+    color: white;
+}
+
+#dark .project hr{
+    color: white;
+   
+} 
+
+#dark .project h1 {
+ 
+    color: white;
+} 
+
+#dark .project .card{
+    background-color: #dbd7d7;
+}
+
+#dark .project .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: all 0.5s ease;
+}
+
+@media(max-width: 600px){
+    .project{
+        margin: 0;
+        padding: 1.25rem;
+        margin-top: 3rem;
+    }
+
+    .project hr{
+        width: 17rem;
+
+    }
+    .project .card {
+        margin-top: 2rem;
+        
+    }
+}
